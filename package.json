@@ -1,0 +1,29 @@
+{
+  "name": "world-rebate",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "serve . -l 5199 --no-port-switching --cors",
+    "start": "serve . -l 5199 --no-port-switching --cors",
+    "dev:aureum": "vite --host 0.0.0.0 --port 5188",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.90.0",
+    "serve": "^14.2.8",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}
